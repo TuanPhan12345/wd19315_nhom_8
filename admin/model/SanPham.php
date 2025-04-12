@@ -99,7 +99,6 @@ class SanPham
             $stmt->execute([
                 'san_pham_id' => $san_pham_id,
                 'link_hinh_anh' => $link_hinh_anh,
-
             ]);
            
             return true;

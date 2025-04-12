@@ -10,12 +10,20 @@ require_once '../commons/function.php'; // Hàm hỗ trợ
 require_once 'controllers/DashboardController.php';
 require_once 'controllers/DanhMucController.php';
 require_once 'controllers/SanPhamController.php';
+require_once 'controllers/DonHangController.php';
+require_once 'controllers/KhuyenMaiController.php';
+
+
 
 
 // Require toàn bộ file Models
 require_once './model/Dashboard.php';
 require_once './model/DanhMuc.php';
-require_once 'model/SanPham.php';
+require_once './model/SanPham.php';
+require_once './model/DonHang.php';
+require_once './model/KhuyenMai.php';
+
+
 
 
 
@@ -54,6 +62,22 @@ match ($act) {
     'search-san-pham'                           => (new SanPhamController())->search(),
     'chi-tiet-san-pham'                         => (new SanPhamController())->detailSanPham(),
     'sua-album-anh-san-pham'                    => (new SanPhamController())->postEditAnhSanPham(),
+
+     // route dơn hàng
+     'don-hangs'                                 => (new DonHangController())->index(),
+     'form-sua-don-hang'                          => (new DonHangController())->formEditDonHang(),
+      'sua-don-hang'                              => (new DonHangController())->postEditDonHang(),
+      'chi-tiet-don-hang'                         => (new DonHangController())->detailDonHang(),
+      'search-don-hang'                           => (new DonHangController())->search(),
+      // route  khuyến mãi
+    'khuyen-mais'                               => (new KhuyenMaiController())->index(),
+    'form-them-khuyen-mai'                      => (new KhuyenMaiController())->create(),
+    'post-them-khuyen-mai'                      => (new KhuyenMaiController())->postcreate(),
+    'form-sua-khuyen-mai'                       => (new KhuyenMaiController())->edit(),
+    'post-sua-khuyen-mai'                       => (new KhuyenMaiController())->postedit(),
+    'xoa-khuyen-mai'                            => (new KhuyenMaiController())->destroy(),
+    'search-khuyen-mai'                         => (new KhuyenMaiController())->search(),
+    'khuyen-mai-cap-nhat-ngay'                  => (new KhuyenMaiController())->editTrangThai(),
     
     
       

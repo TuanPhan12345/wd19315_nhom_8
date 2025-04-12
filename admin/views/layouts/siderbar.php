@@ -64,7 +64,7 @@
                         <i class="ri-stack-line"></i> <span data-key="t-advance-ui">Sản Phẩm</span>
                     </a>
 
-                    <!-- <div class="collapse menu-dropdown" id="sidebarDanhMuc">
+                   <div class="collapse menu-dropdown" id="sidebarDanhMuc">
                         <ul class="nav nav-sm flex-column">
                             <li class="nav-item">
                                 <a href="?act=san-phams" class="nav-link" data-key="t-sweet-alerts">
@@ -77,14 +77,14 @@
                                 </a>
                             </li>
                         </ul>
-                    </div> -->
-                <!-- </li> -->
-                <!-- <li class="nav-item">
+                    </div>
+               </li> 
+                <li class="nav-item">
                     <a class="nav-link menu-link" href="?act=don-hangs"  role="button" aria-expanded="false" aria-controls="sidebarDanhMuc">
                         <i class="ri-stack-line"></i> <span data-key="t-advance-ui">Đơn Hàng</span>
                     </a>
                 </li>
-                <li class="nav-item">
+                 <!-- <li class="nav-item">
                     <a class="nav-link menu-link" href="?act=nguoi-dungs"  role="button" aria-expanded="false" aria-controls="sidebarDanhMuc">
                         <i class="ri-stack-line"></i> <span data-key="t-advance-ui">Người Dùng</span>
                     </a>
@@ -114,12 +114,12 @@
                     <a class="nav-link menu-link" href="?act=lien-hes"  role="button" aria-expanded="false" aria-controls="sidebarDanhMuc">
                         <i class="ri-stack-line"></i> <span data-key="t-advance-ui">Liên Hệ</span>
                     </a>
-                </li>
+                </li>-->
                 <li class="nav-item">
                     <a class="nav-link menu-link" href="?act=khuyen-mais"  role="button" aria-expanded="false" aria-controls="sidebarDanhMuc">
                         <i class="ri-stack-line"></i> <span data-key="t-advance-ui">Khuyến Mãi</span>
                     </a>
-                </li> -->
+                </li> 
                 <!-- <li class="nav-item">
                     <a class="nav-link menu-link" href="?act=banners"  role="button" aria-expanded="false" aria-controls="sidebarDanhMuc">
                         <i class="ri-stack-line"></i> <span data-key="t-advance-ui">Banner</span>
