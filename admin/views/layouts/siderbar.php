@@ -84,11 +84,12 @@
                         <i class="ri-stack-line"></i> <span data-key="t-advance-ui">Đơn Hàng</span>
                     </a>
                 </li>
-                 <!-- <li class="nav-item">
+                  <li class="nav-item">
                     <a class="nav-link menu-link" href="?act=nguoi-dungs"  role="button" aria-expanded="false" aria-controls="sidebarDanhMuc">
                         <i class="ri-stack-line"></i> <span data-key="t-advance-ui">Người Dùng</span>
                     </a>
                 </li>
+                 <!-- 
                 <li class="nav-item">
                     <a class="nav-link menu-link" href="?act=binh-luans"  role="button" aria-expanded="false" aria-controls="sidebarDanhMuc">
                         <i class="ri-stack-line"></i> <span data-key="t-advance-ui">Bình Luận</span>

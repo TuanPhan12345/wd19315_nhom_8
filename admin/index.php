@@ -12,6 +12,8 @@ require_once 'controllers/DanhMucController.php';
 require_once 'controllers/SanPhamController.php';
 require_once 'controllers/DonHangController.php';
 require_once 'controllers/KhuyenMaiController.php';
+require_once 'controllers/NguoiDungController.php';
+
 
 
 
@@ -22,6 +24,8 @@ require_once './model/DanhMuc.php';
 require_once './model/SanPham.php';
 require_once './model/DonHang.php';
 require_once './model/KhuyenMai.php';
+require_once './model/NguoiDung.php';
+
 
 
 
@@ -78,6 +82,13 @@ match ($act) {
     'xoa-khuyen-mai'                            => (new KhuyenMaiController())->destroy(),
     'search-khuyen-mai'                         => (new KhuyenMaiController())->search(),
     'khuyen-mai-cap-nhat-ngay'                  => (new KhuyenMaiController())->editTrangThai(),
+
+    // route tài khoản 
+    'nguoi-dungs'                               => (new NguoiDungController())->index(),
+    'chi-tiet-nguoi-dung'                       => (new NguoiDungController())->getDetail(),
+    'form-sua-nguoi-dung'                       => (new NguoiDungController())->edit(),
+    'sua-nguoi-dung'                       => (new NguoiDungController())->postEdit(),
+    'search-nguoi-dung'                         => (new NguoiDungController())->search(),
     
     
       

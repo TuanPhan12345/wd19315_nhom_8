@@ -57,7 +57,7 @@ class DashboardController {
         // // var_dump($khachHangThang);die;
 
         // require_once "./views/dashboard.php";
-        echo 1234;
+        // echo 1234;
 
     }
 
